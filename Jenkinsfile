@@ -13,13 +13,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                url: 'https://github.com/rajkumar1168/my-devops-project.git'
-            }
-        }
-
         stage('Build Image') {
             steps {
                 sh '''
