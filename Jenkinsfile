@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "rajkumar123/nginx-demo"
+        IMAGE_NAME = "rajkumar160116/nginx-demo"
         IMAGE_TAG = "${BUILD_NUMBER}"
         DOCKER_CREDS = "newpipeline"
     }
