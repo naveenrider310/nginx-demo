@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx-demo
-        image: image: naveen2474/nginx-demo:latest
+        image: image: "naveen2474/nginx-demo:latest"
         ports:
         - containerPort: 80
