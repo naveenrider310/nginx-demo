@@ -13,7 +13,8 @@ spec:
         app: nginx-demo
     spec:
       containers:
-      - name: nginx-demo
-        image: image: "naveen2474/nginx-demo:latest"
-        ports:
-        - containerPort: 80
+        - name: nginx-demo
+          image: "naveen2474/nginx-demo:latest"
+          ports:
+            - containerPort: 80
+
