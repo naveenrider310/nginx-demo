@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "naveen2474/nginx-demo"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        DOCKER_CREDS = "newpipeline"
+        DOCKER_CREDS = "Ferari"
     }
 
     triggers {
